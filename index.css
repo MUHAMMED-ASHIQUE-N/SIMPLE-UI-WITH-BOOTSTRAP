@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #eaecf0;
+}
+
+.main-container {
+    background-color: white;
+    width: 80vw;
+    height: 90vh;
+}
+
+/* left-side */
+
+.left-side {
+
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid rgb(187, 184, 184);
+}
+
+.logo-box {
+    height: 13%;
+    width: 100%;
+
+}
+
+.drop-box {
+    height: 10%;
+    width: 100%;
+
+}
+
+.dash-bored {
+    height: 50%;
+    width: 100%;
+
+}
+
+.user-name {
+    height: 27%;
+    width: 100%;
+
+}
+
+.user-name p {
+    font-size: 10px;
+}
+
+.user-name-box {}
+
+.d-b-box {
+    width: 80%;
+    height: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.drop-s {
+    font-weight: bold;
+}
+
+.dash-bored ul {
+    list-style: none;
+}
+
+/* navbar-styles */
+
+.navbar {
+    background-color: white;
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid rgb(187, 184, 184);
+}
+
+.nav {
+    width: 60%;
+    height: 100%;
+
+    gap: 10px;
+}
+
+
+
+
+/* right-side-styles */
+.right-side {
+    background-color: #eaecf0;
+    width: 80%;
+    height: 100%;
+    border-bottom: 1px solid rgb(187, 184, 184);
+}
+
+
+
+/* riht-side-main-container */
+.r-s-conatiner {
+    height: 80%;
+    width: 100%;
+    
+}
+
+.r-s-gap-1 {
+    width: 5%;
+    height: 100%;
+   background-color: #f9fafb;
+}
+
+.content {
+    height: 100%;
+    width: 90%;
+background-color: white;
+}
+
+.sec-1 {
+    height: 100%;
+    width: 40%;
+  
+}
+
+.sec-2 {
+    height: 100%;
+    width:  60%;
+   
+}
+.gender-btn{
+    background-color: white;
+    color: blue;
+}
+.gender-btn-1{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.pp{
+    font-size: 12px !important;
+}
+.img{
+    width: 100%;
+    height: 20%;
+   background-size: cover;
+    background-image: url(./images/location.png);
+}
+
+.r-s-gap-2 {
+    width: 5%;
+    height: 100%;
+    background-color: #f9fafb;
+   border-right:1px solid rgb(187, 184, 184) ;
+}
+.btn-secondary{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.form-control{
+    width: 350px;
+}
+
+
+
+/* footer */
+.footer {
+    height: 10%;
+    width: 100%;
+  background-color: white;
+  border-top:1px solid rgb(187, 184, 184)  ;
+}

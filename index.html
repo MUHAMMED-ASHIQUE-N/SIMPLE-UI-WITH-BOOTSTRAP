@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <div class="main d-flex justify-content-center align-items-center">
+        <div class="main-container d-flex rounded-3">
+            <!-- left-side -->
+
+            <div class="left-side d-flex flex-column  ">
+                <div class="logo-box container d-flex align-items-center">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+
+                            <i class='bx bxl-shopify' style="font-size: 20px; color: #b9d4fa;"></i>
+                            <h6 class="d-inline-block align-text-top"> Stealth</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="drop-box">
+                    <div class="d-b-box container dropdown-toggle">
+                        <p class=" opacity-75">project</p>
+                        <span class="drop-s "> Widelab Company</span>
+                    </div>
+                </div>
+                <div class="dash-bored container ">
+                    <ul class="d-flex flex-column ">
+                        <li><i class='mt-3 me-1 bx bxs-dashboard opacity-75'></i> Dashboard <span>24/7</span></li>
+                        <li><i class='mt-3 me-1 bx bx-bulb opacity-75'></i>Recommendations</li>
+                        <li><i class='mt-3 me-1 bx bx-file-blank opacity-75'></i>My Shop</li>
+                        <li><i class='mt-3 me-1 bx bx-circle opacity-75'></i> Reports</li>
+                        <li><i class='mt-3 me-1 bx bx-cog opacity-75'></i>Settings</li>
+                        <li><i class=' mt-3 me-1 bx bx-square-rounded opacity-75'></i>Perforemance max</li>
+                    </ul>
+                </div>
+                <div class="user-name d-flex align-items-end ms-3 ">
+                    <div class="user-name-box ">
+                        <div class="img-box">
+                            <img src="images/card-dp-1.jpeg" alt="" width="30" height="30" class="rounded-5">
+                            <span>
+                                Bill Smith
+                            </span>
+                        </div>
+                        <p class="opacity-75">bill.smith@gmail.com</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- right-side-start -->
+            <div class="right-side">
+                <!-- navbar-start -->
+                <div class="navbar navbar-expand-lg ">
+                    <div class="nav d-flex justify-content-center align-items-center">
+                        <div class="text-nav">
+                            <i class='bx bxs-check-circle' style="color: green; font-size: 25px;"></i><span> Campaign
+                                Settings ---</span>
+                        </div>
+                        <div class="text-nav">
+                            <i class='bx bx-right-arrow-circle '
+                                style="color: rgb(43, 99, 229); font-size: 25px;"></i><span>
+                                Asset Group ---</span>
+                        </div>
+                        <div class="text-nav">
+                            <i class='bx bx-right-arrow-circle opacity-50'
+                                style="color: rgb(0, 0, 0); font-size: 25px;"></i><span class="opacity-50">
+                                Confirmation</span>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- right-side-container -->
+                <div class="r-s-conatiner d-flex">
+                    <div class="r-s-gap-1">
+
+                    </div>
+                    <!-- content-container -->
+                    <div class="content d-flex">
+                        <div class="sec-1 container">
+                            <h6 class="mt-5">Demographics</h3>
+                                <p class="opacity-75">Some instructions Lorem is simply <br>dummy text of painting</p>
+                        </div>
+                        <div class="sec-2">
+                            <div class="s-2-text-area  container">
+                                <h6 class="mt-5">Gender</h6>
+                                <div class="gender">
+                                    <button type="button" class="btn btn-primary  gender-btn fs-6">
+                                        Female
+                                    </button>
+                                    <button type="button" class="btn btn-primary  gender-btn-1 fs-6">
+                                        Male
+                                    </button>
+                                    <button type="button" class="btn btn-primary  gender-btn-1 fs-6">
+                                        Other
+                                    </button>
+                                </div>
+                                <h6 class="mt-3">Age</h6>
+                                <div class="age">
+                                    <form>
+
+                                        <input type="number" id="age" name="age" min="0" max="120" required>-
+                                        <input type="number" id="age" name="age" min="0" max="120" required>
+                                    </form>
+                                </div>
+                                <h6 class="mt-3">Location</h6>
+                                <div class="location">
+                                    <form>
+
+                                        <input type="radio" id="apple" name="fruit" value="apple">
+                                        <label for="apple">Everywhere</label><br>
+
+                                        <input type="radio" id="banana" name="fruit" value="banana">
+                                        <label for="banana">I want to narrow the loaction</label><br>
+                                        <p class="opacity-75 pp container">Perforemance max champaign will reach fewer
+                                            people that could convert.We recomende <br> to not narrow the loction until
+                                            your really want to.</p>
+
+                                    </form>
+
+                                </div>
+                                <div class="img">
+                                    <p>
+                                    <div class="container d-flex">
+                                        <div class="dropdown">
+                                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                Include
+                                            </a>
+                                        </div>
+                                        <form class="d-flex" role="search">
+                                            <input class="form-control me-2" type="search" placeholder="Search"
+                                                aria-label="Search">
+                                        </form>
+                                    </div>
+
+                                    <br><br><br><br><br><br>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="r-s-gap-2">
+                    </div>
+
+                </div>
+                <!-- footer -->
+                <div class="footer">
+                    <div class="sec-1-gap-content d-flex align-items-center ">
+                        <i class='bx bxs-check-circle ms-5' style="color: green; font-size: 25px;"></i>
+                        <p class="me-auto p-2 fw-semibold mt-3 opacity-75 "> saved Just now</p>
+                        <div class="sec-1-gap-icons  rounded-1">
+                            Cancell
+                        </div>
+                        <div class="sec-1-gap-icons-2  rounded-1">
+                            <button type="button" class="btn btn-primary ms-3 me-4 opacity-50">
+                                Continue
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+</body>
+
+</html>
